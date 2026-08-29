@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest something the app should do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like it to do?
+      validations:
+        required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would that let you do that you cannot do now?
+      description: The reason matters more than the mechanism — there may be a simpler way to get you there.
+    validations:
+      required: false

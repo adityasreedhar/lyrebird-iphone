@@ -1,0 +1,78 @@
+name: Bug report
+description: Something behaves wrongly, crashes, or does not work at all.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please do **not** paste your server address,
+        username or password anywhere in this issue — an issue is public, and
+        none of it is needed to diagnose a bug.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what did the app do instead of what you expected?
+      placeholder: I tapped X, and instead of Y it did Z.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can make it happen on purpose, the exact sequence is the single most useful thing in this form.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. It ...
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Which exact model, e.g. "iPad 4 (Wi-Fi)", "iPod touch 5".
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS version
+      description: Settings > General > About > Version. e.g. "6.1.3".
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: The version Cydia lists for the package.
+    validations:
+      required: false
+  - type: input
+    id: server
+    attributes:
+      label: Server
+      description: Navidrome version, or another Subsonic-API server?
+    validations:
+      required: false
+  - type: input
+    id: audio-format
+    attributes:
+      label: Audio format
+      description: FLAC, MP3, something else?
+    validations:
+      required: false
+  - type: input
+    id: jailbreak
+    attributes:
+      label: Jailbreak
+      description: e.g. evasi0n, p0sixspwn, h3lix.
+    validations:
+      required: false
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else
+      description: Screenshots help a lot. Drag them straight into this box.
+    validations:
+      required: false
