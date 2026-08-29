@@ -1,6 +1,6 @@
 # Lyrebird iOS 6 for iPhone/iPod touch
 
-A Navidrome client in the shape of iOS 6's own Music app — pinstripe lists, chrome tab bar, Cover Flow. Downloads land in the stock Music app itself, playable with Lyrebird closed.
+Your Navidrome server on an iPhone or iPod touch still running iOS 6 — albums, artists, playlists, search. Downloads land in the stock Music app itself, artwork and all, playable with Lyrebird closed.
 
 **This repository is the issue tracker.** The app itself is distributed through
 my Cydia repo, not from here — there is no source in this repo.
